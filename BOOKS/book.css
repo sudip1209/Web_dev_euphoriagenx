@@ -1,0 +1,53 @@
+/* General Styling */
+body {
+  background-color: #f8f9fa; /* Light background for better contrast */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; /* Full viewport height */
+  margin: 0;
+}
+
+.container {
+  background-color: white;
+  padding: 20px;
+  border: 2px solid black;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+}
+
+h2 {
+  font-family: Arial, sans-serif;
+}
+
+.books-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px; /* Space between book cards */
+}
+
+.book-card {
+  border: 2px solid black;
+  padding: 10px;
+  text-align: center;
+  font-family: Arial, sans-serif;
+}
+
+.book-img {
+  width: 100px;
+  height: 100px;
+  border: 2px solid black;
+  display: block;
+  margin: 0 auto 10px;
+}
+
+.book-info {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 10px;
+}
+
+.book-title, .book-price {
+  font-weight: bold;
+}

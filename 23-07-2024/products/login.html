@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Page</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <form onsubmit="event.preventDefault(); login();">
+        <table class="login">
+            <tr>
+                <th><h4>Login Page</h4></th>
+            </tr>
+            <tr>
+                <td>Enter User ID</td>
+            </tr>
+            <tr>
+                <td><input type="text" class="input-box" name="userid" id="userid" required></td>
+            </tr>
+            <tr>
+                <td>Enter Password</td>
+            </tr>
+            <tr>
+                <td><input type="password" class="input-box" name="password" id="password" required></td>
+            </tr>       
+            <tr>
+                <th><button type="submit" >Login</button></th>
+            </tr>
+            <tr>
+                <th id="login_message"></th>
+            </tr>
+        </table>
+    </form>
+
+    <script src="script.js"></script>
+</body>
+</html>

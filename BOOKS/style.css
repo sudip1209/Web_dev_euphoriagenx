@@ -1,0 +1,78 @@
+/* General Resets */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+/* Body Styling */
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #f0f0f0; /* Light background for better contrast */
+}
+
+/* Main Container Styling */
+.main-container {
+  width: 400px;
+  border: 2px solid black;
+  border-radius: 10px; /* Rounded corners for better aesthetics */
+  background-color: #fff; /* White background for the container */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Light shadow for depth */
+  padding: 20px;
+}
+
+/* Form Container Styling */
+.form-container {
+  text-align: left;
+}
+
+/* Heading Styling */
+h2 {
+  margin-bottom: 20px;
+  font-size: 1.5em; /* Slightly larger font for the heading */
+}
+
+/* Table Styling */
+.table {
+  width: 100%;
+  border-collapse: separate;
+  border-spacing: 10px; /* Space between cells */
+}
+
+.table-row th,
+.table-row td {
+  padding: 10px;
+}
+
+/* Input Styling */
+input {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 5px; /* Rounded corners for inputs */
+}
+
+/* Button Styling */
+button {
+  display: block;
+  width: 130px;
+  height: 40px;
+  margin: 20px auto 0; /* Center the button and add top margin */
+  font-size: 15px;
+  color: #012bff; /* Blue text */
+  background-color: #d0f1ff; /* Light blue background */
+  border: none;
+  border-radius: 10px; /* Rounded corners for the button */
+  cursor: pointer;
+  transition: background-color 0.3s ease, color 0.3s ease; /* Smooth transition for hover effect */
+}
+
+button:hover {
+  background-color: #0c56d6; /* Darker blue on hover */
+  color: #fff; /* White text on hover */
+}

@@ -1,0 +1,17 @@
+.book{
+    width: 21%;
+    float: left;
+    box-shadow: 2px 5px 5px grey;
+    margin: 1%;
+    padding: 10px;
+  }
+  .book img{
+    width: 100%;
+    height: 300px;
+  }
+  .book .name{
+    text-align: center;
+  }
+  .book .price{
+    text-align: center;
+  }
