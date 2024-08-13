@@ -73,4 +73,25 @@ router.get("/getDataId/:id", async (req, res) => {
   }
 });
 
+router.get("/searchDonerByAddress/:id", async (req, res) => {
+  const address = req.params.address;
+  try {
+    const data = await Doner.findById({ address: address });
+    res.json(data);
+  } catch (error) {
+    res.status(500).json({ message: error.message });
+  }
+});
+
+router.post("/loginDoner/", async (req, res) => {
+  const email = req.body.email;
+  const password = req.body.password;
+  try {
+    const data = await Doner.findById({ email: email, password: password });
+    res.json(data);
+  } catch (error) {
+    res.status(500).json({ message: error.message });
+  }
+});
+
 module.exports = router;
